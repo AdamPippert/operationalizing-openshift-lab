@@ -36,7 +36,7 @@ objects:
     triggers:
     - type: Change
     - type: Webhook
-    #- type: Periodic
+    - type: Periodic
       #cron: '*/1 * * * *'
     serviceAccountRef: eunomia-runner
     templateProcessorImage: ${TEMPLATE_PROCESSOR_IMAGE}
